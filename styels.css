@@ -1,0 +1,46 @@
+
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+  
+    /* Background image */
+    background-image: url('garden.jpg'); /* Replace with the actual path to your image */
+    background-size: cover; /* Ensures the image covers the entire viewport */
+    background-position: center; /* Centers the image */
+    background-repeat: no-repeat; /* Prevents the image from repeating */
+  }
+
+.container {
+    text-align: center;
+    padding: 20px;
+    background-color: #e2d9d9;
+    box-shadow: 0 0 0 100px rgba(22, 12, 12, 0.1);
+}
+
+button {
+    padding: 10px 20px;
+    margin: 10px;
+    cursor: pointer;
+    background-color: rgb(30, 107, 6);
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-weight: 900;
+}
+
+button:hover{
+    background-color: rgb(19, 71, 3);
+}
+
+button:disabled {
+    background-color: #ccc;
+}
+
+p {
+    font-size: 18px;
+    color: #333;
+}
